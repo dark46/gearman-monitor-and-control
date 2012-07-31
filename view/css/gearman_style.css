@@ -1,0 +1,160 @@
+/* CSS reset */
+html, body, div, span, applet, object, iframe,
+h1, h2, h3, h4, h5, h6, p, blockquote, pre,
+a, abbr, acronym, address, big, cite, code,
+del, dfn, em, img, ins, kbd, q, s, samp,
+small, strike, strong, sub, sup, tt, var,
+b, u, i, center,
+dl, dt, dd, ol, ul, li,
+fieldset, form, label, legend,
+table, caption, tbody, tfoot, thead, tr, th, td,
+article, aside, canvas, details, embed,
+figure, figcaption, footer, header, hgroup,
+menu, nav, output, ruby, section, summary,
+time, mark, audio, video {
+	margin: 0;
+	padding: 0;
+	border: 0;
+	font-size: 100%;
+	font: inherit;
+	vertical-align: baseline;
+}
+/* HTML5 display-role reset for older browsers */
+article, aside, details, figcaption, figure,
+footer, header, hgroup, menu, nav, section {
+	display: block;
+}
+body {
+	line-height: 1;
+}
+ol, ul {
+	list-style: none;
+}
+blockquote, q {
+	quotes: none;
+}
+blockquote:before, blockquote:after,
+q:before, q:after {
+	content: '';
+	content: none;
+}
+table {
+	border-collapse: collapse;
+	border-spacing: 0;
+}
+textarea {
+    height: 1.2em !important;
+    resize: none;
+    overflow: hidden;
+}
+/* </CSS reset> */
+
+
+body {
+    font-size: 16px !important;
+    font-family: "Lucida Grande",Verdana,Lucida,Helvetica,Arial,sans-serif;
+    word-wrap: break-word;
+    padding-top: 5px;
+}
+div, textarea, p {
+    margin: 0px 0px 0px 0px;
+    padding: 0px 0px 0px 0px;;
+}
+table, table tr, table td, table th {
+    
+}
+
+
+.wrapper {
+    margin: 0 auto;
+    width: 1024px;
+}
+
+
+
+#workers_table {
+    width: 80%;
+    margin-bottom: 20px;
+}
+#workers_table td {
+    padding: 3px 3px;
+    height: 20px;
+    line-height: 20px;
+}
+#add_worker, #stop_workers, #reset_queue {
+    cursor: pointer;
+}
+.icon {
+    margin-top: 5px;
+}
+#functions_table th, #functions_table td {
+    border: 1px solid #000000;
+    padding: 2px 3px;
+    vertical-align: middle;
+}
+.gearman_func_value {
+    font-weight: bold;
+    padding-left: 10px;
+}
+.log_row {
+    font-family: "Courier New" sans-serif;
+    padding: 2px;
+}
+#log_row_limiter {
+    height: 300px;
+    overflow-y: scroll;
+}
+.main_menu div.menu_button {
+    margin: 0 !important;
+    padding: 0 5px !important;
+}
+.menu_button :hover {
+    color: red !important;
+}
+
+
+.row_on_mouse {
+    background-color: #c7ffc7 !important;
+}
+.row_on_mouse textarea {
+    background-color: #fff !important;
+}
+.row_on_mouse td {
+    color: #000 !important;
+}
+.row_on_mouse a {
+    background-color: #c7ffc7 !important;
+    color: blue !important;
+}
+
+.header_logo {
+    float: left;
+}
+.header_title {
+    float: left;
+}
+.header_title h1 {
+    height: 50px;
+    line-height: 50px;
+    font-size: 2em;
+
+}
+.clearb {
+    clear: both;
+}
+
+.table_title_msg2 {
+    margin: 15px 5px 5px 5px;
+    font-weight: bold;
+    color: #333333;
+}
+.td_on_mouse {
+    background-color: #ffff00;
+}
+#count_workers {
+    font-weight: bold;
+    color: #000066;
+}
+.reset_task {
+    background: url("view/img/delete.png") center;
+}
