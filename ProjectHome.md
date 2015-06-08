@@ -1,0 +1,2 @@
+Class Gearman\_Monitor contains all methods for controlling queue, tasks, workers.
+Web-application fully ready for work, path to some your files needed only (path to workers, log-file etc - see comments in code).
